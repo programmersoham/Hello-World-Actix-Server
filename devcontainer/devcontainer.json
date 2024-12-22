@@ -1,0 +1,8 @@
+{
+    "name": "Rust with Actix Web",
+    "image": "rust:latest",
+    "forwardPorts": [
+      8080
+    ],
+    "postCreateCommand": "cargo build"
+  }
