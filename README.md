@@ -1,34 +1,41 @@
-This repository contains a README file sample for Daytona Samples and the MIT License.
+# Rust Actix "Hello World" Server
 
-It can be used as a template to create sample repositories that can be added into [Daytona](https://github.com/daytonaio/daytona).
-
-Once you finish your sample and it gets merged, you can open a PR in the Daytona repo and submit the sample into the [index file](https://github.com/daytonaio/daytona/blob/main/hack/samples/index.json).
-
-# Sample <LANGUAGE/FRAMEWORK>
-
-Sample description
+This repository contains a simple "Hello World" web server built with Rust and the Actix web framework.
 
 ---
 
-## 🚀 Getting Started  
+## 🚀 Getting Started
 
-### Open Using Daytona  
+### Open Using Daytona
 
-1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
-2. **Create the Workspace**:  
-   ```bash  
-   daytona create <SAMPLE_REPO_URL> 
-   ```  
+1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
 
-... MORE STEPS IF NEEDED ...
+2. **Create the Workspace**:
+   ```bash
+   daytona create <https://github.com/programmersoham/Hello-World-Actix-Server/>
+   ```
+  
 
-4. **Start the Application**:  
-   ```bash  
-   command to start the app
-   ```  
+3. **Open the Development Environment**:
+   Daytona will automatically set up the development environment based on the provided `.devcontainer/devcontainer.json` configuration. Once the setup is complete, you can open the environment in your preferred IDE.
+
+4. **Start the Application**:
+   ```bash
+   cargo run
+   ```
+   This command will build and run the Actix web server. By default, the server listens on port 8080.
+
+5. **Access the Application**:
+   Open your web browser and navigate to `http://localhost:8080` to see the "Hello, World!" message.
 
 ---
 
-## ✨ Features  
+## ✨ Features
 
-List of sample features (e.g. realtime chat app, standardized development environment with devcontainers)
+- **Standardized Development Environment**: Utilizes Daytona and Dev Containers to ensure a consistent setup across different systems.
+- **Rust with Actix Web Framework**: Demonstrates a basic web server using Rust and Actix.
+- **Easy Setup**: Simplifies the process of running the application with minimal configuration.
+
+---
+
+
